@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>inscription</title>
+        <style>
+            .elm{
+                front-family: Tribuchet;
+                margin: 0px;
+            }
+            header{
+                background-color: red;
+                color: white;
+            }
+            .LienTitre a:hover{
+                color:yellow;
+            }
+            .LienTitre a:visited{
+                color: black;
+            }
+            LienTitre a:disabled{
+                color:red;
+            }
+            .LienTitre a:focus{
+                color:green;
+            }
+            a{
+                
+                text-decoration: none  ;
+            }
+            p b{
+                text-align: start;
+                color:red;
+                margin:10px;
+                padding:10px;
+                height:50px;
+            }
+            form{
+                width:500px;
+                margin:20px;
+                background-color:#f2f2f2;
+                
+            }
+            input[type="text"],input[type="mail"],input[type="password"],input[type="number"],input[type="date"],textarea{
+                width:100%;
+                margin:12px;
+                padding:8px;
+                border-color:#ccc;
+                border-style: solid;
+                border-width:1px;
+            }
+            .btn{
+                background-color:#DED983;
+                height:1.2cm;
+                color:#345071;
+                font-family: "Trebuvhet MS",Verdana,sans-serif;
+                
+            }
+            footer{
+                background-color:red;
+                color:white;
+            }
+
+            a.LienTitre:link {
+                color: red;
+                text-decoration: none;
+            }
+
+            a.LienTitre:visited {
+                color: black;
+                text-decoration: none;
+            }
+
+            a.LienTitre:hover {
+                color: yellow;
+                text-decoration: none;
+            }
+
+            a.LienTitre:active {
+                color: green;
+                text-decoration: none;
+            }
+
+
+        </style>
+    </head>
+    <body class="elm">
+        
+            <br>
+            <header>
+            <br>
+            <a class="LienTitre" href="file:///C:/Users/DELL/Desktop/ateliers/index.html">Acceuil</a>
+            <a class="LienTitre" href>Projet</a>
+            <a class="LienTitre" href>Services</a>
+            <a class="LienTitre" href="file:///C:/Users/DELL/Desktop/ateliers/inscription.html" >Inscription</a>
+            <hr>
+            <img src="cap1.jpg" width="100%" length="100%">
+            <hr>
+            </header>
+            <p><b>Inscription</b></p>
+            <form>
+            <table>
+                <tr>
+                    <td>            <label for="first name">First name*   </label>
+                    </td>
+                    <div>
+                    <td>            <input type="text" placeholder="yassine" id="first name" required minlength="3">
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Last name">Last name*    </label></td>
+                    <div>
+                    <td>            <input placeholder="ben taher" type="text" id="Last name"  minlength="3"> </td>
+                    </div>
+                </tr>
+                <tr>
+                    <td>            <label for="Address">Adresse    </labe>   </td>
+                    <div>
+                        <td>            <textarea name="address" id="Address"  cols="30" rows="5"></textarea>
+                    
+                        </td>
+                    </div>               
+                </tr>
+                <tr>
+                    <td>            <label for="Phone number">Phone number*    </label>
+                    </td>
+                    <div>
+                    <td>            <input type="number" minlength="8" maxlength="8" id="Phone number" required maxlength="8" >
+                    </td>
+                    </div>
+                </tr>
+                <tr>
+                    <td>            <label >Date of birth*    </label>
+                    </td>
+                    <div>
+                    <td>            <input type="date" required >
+                    </td>
+                    </div>
+                </tr>
+                <tr>
+                    <td>            <label for="email">Email*    </label>
+                    </td>
+                <div>    
+                    <td>            <input title="erreur" type="mail" placeholder ="conact@exemple.com" name="email" pattern=".+gmail.com" required >
+                    </td>
+                </div>
+                </tr>
+                <tr>
+                    <td>            <label for="pass">mot de passe*    </label>
+                    </td>
+                    <div>
+                    <td>            <input id="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=]).{4,}$" type="password"  id="pass" name="password"  required  placeholder="Exemple5%6" title="!ERREUR!(symbole/chiffre/lettres majuscule et minuscule)!!" >
+                    </td>
+                    </div>
+                </tr>
+                <tr>
+                    <td>            
+                    </td>
+                    <div>
+                    <td>            <input class="btn" type="submit" value="submit">
+                                    <input class="btn" type="reset" value="reset">
+                    
+                    </td>
+                    </div>
+                </tr>
+
+            </table>
+            </form>
+            <hr>
+            
+            </header><footer>  
+            <table  width="135%">
+            <tr >
+                    <td ><h5><b>Contactez nous<pre><a href="https://esprit.tn">esprit:esprit@esprit.tn</a></pre></b></h5></td>
+                    <td align=""><h6><i>NoWhere Street</i></h6></td>
+            </tr>
+    
+            </table>
+
+            </footer>
+
+            
+            
+
+        
+    </body>
+
+
